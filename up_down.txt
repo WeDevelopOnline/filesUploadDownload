@@ -1,0 +1,23 @@
+Upload and Download
+
+
+1. upload file to a folder in server i.e. filesystem of server
+	keep its information in database
+
+i.e.
+	fileid
+	filename
+	filetype
+	filesize
+	filepath
+
+2. upload file to database only as blob item
+			binary large object- datatype in database
+	
+	fileid
+	filename
+	filetype
+	filesize
+	filedata
+
+we would be having programs for downloading these files too.
